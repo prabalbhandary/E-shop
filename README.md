@@ -10,10 +10,9 @@ iii. After opening Terminal inside E-shop you need to write the following five c
 iv. Open the E-shop folder in VS Code for that write the following two commands in your terminal
     a. cd ..
     b. code .
-v. Open the integrated terminal of VS code by the following three steps from your keyboard
+v. Open the integrated terminal of VS code by the following two steps from your keyboard
     a. press ctrl + shift + `
-    b. press ctrl + `
-    c. press ctrl + j
+    b. press ctrl + j
 vi. Open two integrated terminals from vs code with two steps
     a. Click on Terminal on the top of the VS code editor
     b. Click on New Terminal
