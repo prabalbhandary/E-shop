@@ -34,17 +34,17 @@ const Header = () => {
         {isLoggedIn ? (
           <>
             <div className='cursor-pointer flex relative'>
-              <div onClick={handleClick} className='ml-2 cursor-pointer'>
+              <div onClick={handleClick} className='ml-2 cursor-pointer hover:underline'>
                 Logout
               </div>
             </div>
           </>
         ) : (
           <>
-            <div className='cursor-pointer flex relative'>
+            <div className='cursor-pointer flex relative hover:underline'>
               <Link to='/signup'>Signup</Link>
             </div>
-            <div className='cursor-pointer flex relative'>
+            <div className='cursor-pointer flex relative hover:underline'>
               <Link to='/login'>Login</Link>
             </div>
           </>
