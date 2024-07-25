@@ -1,5 +1,5 @@
 I have created this app from MERN technologies. MERN stands for MongoDB, Express JS, React JS and Node JS. JS stands for JavaScript. To clone this app you must follow this instructions:
-i. On your Terminal write git clone https://github.com/prabalbhandary/E-shop.git
+i. On your Terminal write git clone "https://github.com/prabalbhandary/E-shop.git"
 ii. After Cloning go inside the folder named E-shop and open terminal inside it
 iii. After opening Terminal inside E-shop you need to write the following five commands in your terminal
     a. cd client
