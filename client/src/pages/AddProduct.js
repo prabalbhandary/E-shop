@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {useNavigate} from 'react-router-dom'
 
 const AddProduct = () => {
     const [title, setTitle] = useState('');
@@ -6,6 +7,7 @@ const AddProduct = () => {
     const [description, setDescription] = useState('');
     const [category, setCategory] = useState('');
     const [image, setImage] = useState('');
+    const navigate = useNavigate()
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -22,6 +24,8 @@ const AddProduct = () => {
         setDescription('');
         setCategory('');
         setImage('');
+        navigate("/");
+        window.location.reload()
     };
 
     return (
